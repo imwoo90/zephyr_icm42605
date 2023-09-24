@@ -41,4 +41,15 @@ west build -p always -b raytac_mdbt50q_db_40_nrf52840
 ###  API reference
   
 https://docs.zephyrproject.org/latest/index.html
-  
+
+---
+
+## Program and Debugging
+
+The program uses j-Flash Lite, and debug logging uses j-link RTT view because there is no uart line.
+
+![j-flash](https://github.com/imwoo90/zephyr_can/blob/main/doc/j-flash.jpg)
+
+![RTT_Viewer](https://github.com/imwoo90/zephyr_can/blob/main/doc/j-link_RTT_Viewer.png)
+
+---
